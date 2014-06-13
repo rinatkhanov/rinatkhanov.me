@@ -1,0 +1,77 @@
+body {
+
+	background: url(gate_bw.jpg) no-repeat left center fixed;
+	background-color: rgb(0,0,0);
+}
+
+#pageIn {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#pageMiddle {
+	display:table-cell;
+	vertical-align:middle;
+}
+
+#pageOut {
+	display:table;
+	position:absolute;
+	height:99%;
+	width:99%;
+}
+
+#content {
+	
+	margin-left: 100px;
+	width: 600px;
+}
+
+#aboutme {
+	text-align: right;
+	margin-bottom: 5px;
+	color: rgba(255,255,255,0.2);
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-weight: 100;
+}
+
+#text {
+
+	padding: 35px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	/*background: rgba(255,255,255,0.2);*/
+	font-family: "Gill Sans", "Futura", Arial, serif;
+	font-size: 13pt;
+	color: #ccc;
+}
+
+p {
+	margin: 10px;
+}
+
+a {
+	color: #ccc;
+	text-decoration: none;
+	border-bottom: 1px solid #999;
+	transition: color 0.13s linear,
+				border-bottom 0.1s linear;
+}
+
+a:hover { 
+	border-bottom: 1px solid rgb(158, 33, 55);
+} 
+
+::selection {
+	background: rgb(170, 11, 11)
+}
+	
+::-moz-selection {
+	background: rgb(170, 11, 11)
+}
+
+html, html a {
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 0.5px 0.5px 0.5px rgba(0,0,0,0.001);
+}
