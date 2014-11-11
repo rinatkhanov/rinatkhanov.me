@@ -22,20 +22,16 @@ body {
 }
 
 #content {
-	
-	margin-left: 100px;
+	margin-left: 130px;
 	width: 600px;
+	font-family: DidactGothic, "Gill Sans", "Futura", Helvetica;
+	font-size: 14pt;
+	color: #ccc;
 }
 
-#text {
-
-	padding: 35px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	font-family: "Gill Sans", "Futura", Helvetica;
-	font-size: 13pt;
-	color: #ccc;
+@font-face {
+    font-family: DidactGothic;
+    src: url(didact-gothic.ttf);
 }
 
 p {
