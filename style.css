@@ -24,14 +24,14 @@ body {
 #content {
 	margin-left: 130px;
 	width: 600px;
-	font-family: DidactGothic, "Gill Sans", "Futura", Helvetica;
+	font-family: JosefinCustomFont, "Gill Sans", "Futura", Helvetica;
 	font-size: 14pt;
 	color: #ccc;
 }
 
 @font-face {
-    font-family: DidactGothic;
-    src: url(didact-gothic.ttf);
+    font-family: JosefinCustomFont;
+    src: url(JosefinCustomFont.ttf);
 }
 
 p {
