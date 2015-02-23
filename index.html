@@ -2,8 +2,8 @@
 <head>
 	<title>Rinat Khanov</title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="animate.min.css">
 	<link rel="shortcut icon" href="favicon.png">
-
 	<meta name="keywords" content="rinat khanov, ринат ханов, khanov"/>
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="website">
@@ -11,43 +11,58 @@
 	<meta property="og:url" content="http://rinatkhanov.me/">
 	<meta property="og:site_name" content="Rinat Khanov">
 	<meta charset="UTF-8">
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	
+	<script>
+	    $(document).ready(function() {
+	        $("#logo").attr("style", "visibility: visible")
+ 	        $("#intro").attr("style", "visibility: visible")
+ 	        $("#footer").attr("style", "visibility: visible")
+ 	        $("ul.apps").attr("style", "visibility: visible")
+ 	        
+	        $("#footer").addClass("animated fadeInUp");
+	        $("#logo").addClass("animated fadeInDown");
+	        $("ul.apps").addClass("animated zoomIn");
+ 			$("#intro").addClass("animated fadeInUp");
+	    });
+    </script>
 
 </head>
 <body>
-<div id="gate">
-	<div id="pageOut">
-		<div id="pageMiddle">
-			<div id="pageIn">
-				<div id="content">
-					<p>Hello.</p>
-
-						<p>My name is Rinat Khanov.</p>
-
-						<p>I am an independent iOS developer.</p>
-
-						<p>I made a universal app called <a href="http://symbols.khanov.com">Symbols</a>.</p>
-
-						<p>I was working with <a href="http://mylapka.com">Lapka</a> for some time.</p>
-
-						<p>I study Computer Science in Kazan, Russia.</p>
-
-						<p>I share my thoughts on technology and life <a href="http://blog.rinatkhanov.me">here</a>.</p>
-
-						<p>I used to be an Apple blogger in the past.</p>
-
-						<p>I also enjoy <a href="http://photos.rinatkhanov.me">taking photos</a> on my iPhone.</p>
-
-						<p>I love minimalism and beautiful design.</p>
-
-						<p>I sometimes tweet at @<a href="http://twitter.com/rinatkhanov">rinatkhanov</a>.</p>
-
-						<p>My email is <a href="mailto:rinat@khanov.com">rinat@khanov.com</a>.</p>
-
-						<p>Have a good day.</p>
-				</div>
-			</div>
-		</div>
-	</div>
+<div id="logo">Rinat Khanov</div>
+<div id="content">
+	<p id="intro">I make cool iOS apps and study Computer Science in Kazan, Russia.
+	</br>
+	Here's a list of products I've worked on, either in a team or by myself:</p>
+	
+	<ul class="apps">
+    <li>
+      <a href="https://itunes.apple.com/app/symbols/id652475637" rel="external nofollow" title="Symbols">
+        <img src="icons/symbols.png" alt="Symbols">
+        <span>Symbols</span>
+      </a>
+    </li>
+    <li>
+      <a href="https://itunes.apple.com/app/lapka/id534257633?mt=8" rel="external nofollow" title="Lapka">
+        <img src="icons/lapka.png" alt="Lapka">
+        <span>Lapka</span>
+      </a>
+    </li>
+    <li>
+      <a href="https://itunes.apple.com/app/lapka-pro/id643688346" rel="external nofollow" title="Lapka Pro">
+        <img src="icons/lapka-pro.png" alt="Lapka Pro">
+        <span>Lapka Pro</span>
+      </a>
+    </li>
+    <li>
+      <a href="https://itunes.apple.com/app/breath-alcohol-monitor/id765019245" rel="external nofollow" title="Lapka BAM">
+        <img src="icons/lapka-bam.png" alt="Lapka BAM">
+        <span>Lapka BAM</span>
+      </a>
+    </li>
+  </ul>
+		<p id="footer">You can get in touch with me via <a href="http://twitter.com/rinatkhanov/">Twitter</a> or <a href="mailto:rinat@khanov.com">email</a>.</p>
 </div>
 </body>
 </html>
