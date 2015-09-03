@@ -16,9 +16,9 @@ body {
 #info {
   color: gray;
   margin: auto;
-  width: 245px;
+  width: 300px;
   letter-spacing: 0.8px;
-  line-height: 0.7
+  line-height: 1.3
 }
 
 @font-face {
