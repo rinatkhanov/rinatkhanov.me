@@ -1,11 +1,13 @@
+/* Background pattern from subtlepatterns.com */
+
 body {
-	background-color: #111;
+	background-image: url(stardust.png);
 	font-family: Benton, "Gill Sans", "Futura", Helvetica;
 	color: white;
 }
 
 #logo {
-	margin: 200 auto 60;
+	margin: 200 auto 40;
 	width: 500px;
 	font-size: 50px;
   letter-spacing: 7px;
@@ -13,11 +15,17 @@ body {
   text-transform: uppercase;
 }
 
+.retired {
+  text-decoration: line-through;
+  color: #bbb;
+}
+
 #info {
-  color: gray;
+  color: #aaa;
   margin: auto;
-  width: 250px;
+  width: 300px;
   font-family: Avenir, Helvetica, Arial;
+  font-size: 15pt;
   font-weight: bold;
 }
 
@@ -27,7 +35,7 @@ body {
 }
 
 a {
-	color: inherit;
+	color: white;
 	text-decoration: none;
 }
 
